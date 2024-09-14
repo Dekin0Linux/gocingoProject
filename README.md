@@ -26,5 +26,7 @@ To set up and run this project locally, follow these steps:
 
 
 4. **Run the Development Server**
+
+
     npm run dev
 
