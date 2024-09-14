@@ -5,7 +5,7 @@ import 'animate.css';
 import { FaRegSmile, FaHeart } from "react-icons/fa";
 import hero1 from '@/app/images/hero1.jpg'
 import hero2 from '@/app/images/hero2.jpg'
-import hero3 from '@/app/images/hero3.pNg'
+import hero3 from '@/app/images/hero3.png'
 import Image from 'next/image';
 import ModalComponent from '../Modal';
 import DonationForm from '../DonationForm';
