@@ -14,9 +14,11 @@ function Footer() {
         setEmail('');
     };
 
+    // max-w-8xl container mx-auto
+
     return (
-        <footer className="max-w-8xl container mx-auto p-5 md:p-0">
-            <div className="bg-green-800 p-8 rounded-3xl mb-10">
+        <footer className="md:p-0 bg-green-800 ">
+            <div className=" max-w-8xl container mx-auto p-5">
                 
                 {/* Newsletter Subscription Section */}
                 <div className="bg-white p-6 rounded-2xl mb-8">

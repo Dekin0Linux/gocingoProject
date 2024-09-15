@@ -18,9 +18,9 @@ function Fundraiser() {
   return (
     <div className="max-w-8xl container mx-auto py-10 px-5 md:px-0">
       <div>
-        <div className="flex justify-between flex-wrap">
+        <div className="flex justify-between items-center flex-wrap">
           <h1 className="md:text-4xl text-2xl font-semibold">Fundraisers In Extreme Need</h1>
-          <div></div>
+          <a href="/projects" className="text-blue-500">View all</a>
         </div>
 
         {/* Cards Section */}
@@ -29,14 +29,14 @@ function Fundraiser() {
           <div className="flex flex-col gap-5 flex-1 self-end">
             <div className="relative h-full bg-green-800 text-white rounded-3xl overflow-hidden">
               <Image src={image2} alt="imagehere" className="w-full h-full object-cover" />
-              <p className="mt-2 text-sm absolute bottom-4 p-4">
-                Help Turkey and Syria <span>Earthquake Relied Fund</span>
+              <p className="mt-2 text-sm md:text-2xl font-semibold absolute bottom-4 md:p-4 p-1">
+                Help Turkey and Syria <span className="text-green-300">Earthquake Relied Fund</span>
               </p>
             </div>
 
             <div className="bg-black h-32 text-white rounded-3xl flex relative overflow-hidden">
               <Image src={image1} alt="imagehere" className="w-full h-full object-cover" />
-              <p className="mt-2 text-sm absolute bottom-4 text-center font-medium w-full">
+              <p className=" mt-2 text-sm md:text-2xl font-semibold absolute bottom-4 text-center w-full">
                 Education in <span className="text-green-300">Iraq</span>
               </p>
             </div>
@@ -46,14 +46,14 @@ function Fundraiser() {
           <div className="flex flex-col gap-5 flex-1 self-end">
             <div className="relative h-full bg-green-800 text-white rounded-3xl overflow-hidden">
               <Image src={image2} alt="imagehere" className="w-full h-full object-cover" />
-              <p className="mt-2 text-sm absolute bottom-4 p-4">
+              <p className="mt-2 text-sm md:text-2xl font-semibold absolute bottom-4 p-4">
                 Help Turkey and Syria <span>Earthquake Relied Fund</span>
               </p>
             </div>
 
             <div className="bg-black h-32 text-white rounded-3xl flex relative overflow-hidden">
               <Image src={image1} alt="imagehere" className="w-full h-full object-cover" />
-              <p className="mt-2 text-sm absolute bottom-4 text-center font-medium w-full">
+              <p className="mt-2 text-sm md:text-2xl font-semibold absolute bottom-4 text-center  w-full">
                 Education in <span className="text-green-300">Iraq</span>
               </p>
             </div>
@@ -63,14 +63,14 @@ function Fundraiser() {
           <div className="flex flex-col gap-5 flex-1" data-aos="fade-up">
             <div className="bg-black h-32 text-white rounded-3xl flex relative overflow-hidden">
               <Image src={image2} alt="imagehere" className="w-full h-full object-cover" />
-              <p className="mt-2 text-sm absolute bottom-4 text-center font-medium w-full">
-                Education in <span className="text-green-300">Iraq</span>
+              <p className="mt-2 text-sm md:text-2xl font-semibold absolute bottom-4 text-center w-full">
+                 <span className="text-green-300">Flood in</span> Manipur
               </p>
             </div>
             <div className="relative h-full bg-green-800 text-white rounded-3xl overflow-hidden">
               <Image src={image2} alt="imagehere" className="w-full h-full object-cover" />
-              <p className="mt-2 text-sm absolute bottom-4 p-4">
-                Help Turkey and Syria <span>Earthquake Relied Fund</span>
+              <p className="mt-2 text-sm absolute bottom-4 p-4  md:text-2xl font-semibold">
+                 <span className="text-green-300">Childhood labour</span> in world
               </p>
             </div>
           </div>
