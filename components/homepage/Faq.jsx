@@ -14,10 +14,10 @@ const faqs = [
 function Faq() {
     return (
         <div className="max-w-8xl  container mx-auto md:py-10 p-5 md:p-0">
-            <div className="bg-gray-200 p-5 rounded-3xl">
-                <div className="text-center">
-                    <h2 className="font-semibold text-2xl">Frequently asked questions</h2>
-                    <small>Everything you need to know</small>
+            <div className="bg-gray-200 p-10 rounded-3xl">
+                <div className="text-center lg:py-10 py-5">
+                    <h2 className="font-semibold text-2xl lg:text-5xl lg:py-5 p-3">Frequently asked questions</h2>
+                    <small className="lg:text-xl text-md">Everything you need to know</small>
                 </div>
 
                 <div>
@@ -26,7 +26,7 @@ function Faq() {
                             <AccordionItem
                                 key={index}
                                 header={({ state: { isEnter } }) => (
-                                    <div className="flex justify-between gap-3 items-center cursor-pointer w-full py-2">
+                                    <div className="flex justify-between gap-3 items-center cursor-pointer w-full py-4 border border-t border-t-white">
                                         <span className="font-semibold truncate">{faq.question}</span>
                                         <span className="border border-gray-500 p-1 rounded-full text-gray-400">{isEnter ? <FaMinus /> : <FaPlus />}</span>
                                     </div>

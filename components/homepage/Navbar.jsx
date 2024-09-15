@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from "react";
 import ModalComponent from "../Modal";
 import DonationForm from "../DonationForm";
+import Image from "next/image";
+import logo from '@/app/images/logo.png'
 
 
 function Navbar() {
@@ -22,7 +24,7 @@ function Navbar() {
           <div className="flex items-center ">
             <div className="flex-shrink-0">
               <a href="/">
-                <img className=" w-24" src={""} alt="Logo" />
+                <Image src={logo} className=" w-28"  alt="Logo" />
               </a>
             </div>
           </div>

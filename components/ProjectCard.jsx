@@ -8,6 +8,9 @@ function ProjectCard({project,index}) {
                 src={project.image} // Accessing image source
                 alt={project.title}
                 className="w-full h-64 object-cover"
+                width={1000}
+                height={1000}
+                
             />
             <div className="p-5">
                 <h3 className="text-2xl font-bold mb-3">{project.title}</h3>
