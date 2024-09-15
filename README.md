@@ -4,9 +4,8 @@ Gocingo is a Next.js application designed to showcase various projects and conne
 
 ## Project Description
 
-Gocingo aims to provide a platform where users can view different charitable projects. Each project includes details such as title, description, and an image. The application fetches project data from an API and displays it in a responsive grid layout.
 
-
+Gocingo is a non-profit platform designed to connect donors with those in need. Through Gocingo, individuals can easily donate to various causes, helping provide essential support to vulnerable communities.
 ## Setup Instructions
 
 To set up and run this project locally, follow these steps:
